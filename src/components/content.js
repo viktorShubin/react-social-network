@@ -10,7 +10,7 @@ const Content = (props) => {
             <div>
                 {/*<img className="avatar" src="https://www.hindisoch.com/wp-content/uploads/2019/11/Small-Dog-Playing-Pet-Hanging-Playing-Photo-Image.jpg" alt=""/>*/}
                 <Avatar imageAvatar="https://www.karusel-tv.ru/f/uploads/monthly_05_2015/post-133886-0-32456700-1431958548.jpeg"/>
-                <UserInfo/>
+                <UserInfo name="Виктор" lastname="Шубин" city="Ангарск" work="Программист"/>
 
             </div>
 

@@ -1,12 +1,12 @@
 
-const UserInfo = () => {
+const UserInfo = (props) => {
 
     return (
         <ul className="infoAbout">
-            <li >Viktor</li>
-            <li>Shubin</li>
-            <li>Angarsk</li>
-            <li>Programmer</li>
+            <li >{props.name}</li>
+            <li>{props.lastname}</li>
+            <li>{props.city}</li>
+            <li>{props.work}</li>
         </ul>
     )
 }
