@@ -1,16 +1,10 @@
 import Post from "./Post";
 
-const PostsLent = () => {
 
-    const postItem = [
-        {id: 1, PostText: 'Привет бро'},
-        {id: 2, PostText: 'ОО нихуя у тебя кто-то оставил запись'},
-        {id: 3, PostText: 'Вау мне нравится эта соцсеть'},
-        {id: 4, PostText: 'Лучшая соцсеть в мире'}
-    ]
+const PostsLent = (props) => {
 
 
-    const postItemMap = postItem.map((item) => {
+    const postItemMap = props.postItem.map((item) => {
         return <div>
             <Post id={item.id} textMessage={item.PostText}/>
         </div>

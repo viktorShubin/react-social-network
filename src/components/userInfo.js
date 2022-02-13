@@ -1,12 +1,13 @@
+import content from "./content";
 
 const UserInfo = (props) => {
 
     return (
         <ul className="infoAbout">
-            <li >{props.name}</li>
-            <li>{props.lastname}</li>
-            <li>{props.city}</li>
-            <li>{props.work}</li>
+            <li>{props.userDB.name}</li>
+            <li>{props.userDB.lastName}</li>
+            <li>{props.userDB.work}</li>
+            <li>{props.userDB.city}</li>
         </ul>
     )
 }

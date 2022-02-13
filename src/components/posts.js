@@ -1,12 +1,11 @@
 import AddPost from "./addPost";
 import PostsLent from "./postsLent";
-const Posts = () => {
+const Posts = (props) => {
     return (
         <div>
             Мои записи
             <AddPost/>
-            <PostsLent/>
-
+            <PostsLent postItem={props.postItem}/>
         </div>
     )
 }
